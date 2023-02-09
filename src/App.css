@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+  background-color: rgba(216, 191, 216, 0.322);
+  color: rgba(0, 0, 0, 0.555);
+}
+.content_1 {
+  margin-top: 100px;
+}
+.head {
+  text-align: center;
+}
+.experince {
+  font-size: 30px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  display: inline-block;
+}
+.main {
+  display: flex;
+  margin-top: 50px;
+}
+.person {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+.person_btn {
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  background: none;
+  border-style: none;
+}
+.person_btn:hover {
+  border-left-style: solid;
+  border-left-color: goldenrod;
+  color: goldenrod;
+}
+.content {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.title {
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+.company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  background-color: rgba(128, 128, 128, 0.286);
+  border-radius: 6px;
+  margin-bottom: 8px;
+  color: rgba(0, 0, 0, 0.552);
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+.date {
+  color: rgba(0, 0, 0, 0.256);
+  margin-bottom: 20px;
+}
+.duties {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  margin-right: 20px;
+  font-size: 20px;
+  color: rgba(218, 165, 32, 0.56);
+}
+.dutie {
+  width: 1000px;
+  margin: 10px;
+}
